@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo_div{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_logo{
+    padding: 1.5rem 3rem;
+    background-color: #6d6d6d;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 5rem;
+}
+#nav_logo:hover{
+    background-color: #967373;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+}
+
+.nav_hire_me-div{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}   
+
+.nav_li a{
+    color: white;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+#nav-hire_me{
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border-radius: 5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#aboutme p{
+text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
